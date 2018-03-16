@@ -1,0 +1,270 @@
+.clearfix { clear: both; }
+
+.btn{
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+
+body{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+  font-size: 90%;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  position: relative;
+  bottom: 22px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.heart{
+  padding: 0 20px;
+  margin:0;
+}
+
+.top-left{
+  position: relative;
+  bottom: 2px;
+  margin:0;
+  padding:0;
+}
+
+#header{
+  height: 440px;
+  background-color: rgb(32, 101, 136);
+  color: white;
+  background-image: url("images/city-scape.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.search-bar{
+  padding-top: 20px;
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.img-left{
+  float: left;
+  padding-left: 25px;
+  height: 50px;
+}
+
+.img-right{
+  float: right;
+  height: 40px;
+  margin: 5px 25px 0 0;
+}
+
+.form-search{
+  float: left;
+  margin: 0;
+  padding: 0 25px;
+}
+
+input[type='text']{
+  color: white;
+  background-color : rgb(31, 82, 111);
+  border: 1px solid rgba(106, 129, 143, 0.8);
+  margin: 0;
+  height: 46px;
+  width: 740px;
+  font-size: 1em;
+}
+
+.search-button{
+  color: rgba(255,255,255,0.8);
+  background-color :rgb(31, 82, 111);
+  border: 1px solid rgba(106, 129, 143, 0.8);
+  font-size: 1em;
+  margin-left: -5px;
+  height: 50px;
+  width: 50px;
+}
+
+.sign-up{
+  float: left;
+  margin: 10px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.sign-up a{
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.sign-up a:hover{
+  color: white;
+}
+
+.header-content{
+  /*margin: 40px 7%;*/
+  width: 38%;
+  margin: 40px 0 0 10%;
+}
+
+.header-content h1{
+  font-size: 3em;
+  font-weight: lighter;
+  padding:0;
+  margin:0;
+}
+
+.header-content p{
+  font-size: 1.1em;
+}
+
+.header-btn{
+  background-color: rgb(240, 146, 51);
+  margin-top: 30px;
+  Padding: 8px 15px;
+  width: 150px;
+}
+
+#collaboration{
+  background-color: rgb(39, 53, 71);
+  color: white;
+  height: 600px;
+}
+
+#collaboration h2{
+  font-size: 2.2em;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+#collaboration ul{
+  margin: 0;
+  padding: 0 15px;
+}
+
+#collaboration li{
+  margin: 20px 0;
+}
+
+.center-collaboration{
+  width: 1050px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.collaboration-content{
+  float:right;
+  width: 460px;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.collaboration-btn{
+  background-color: rgb(203, 56, 55);
+  Padding: 8px 22px;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.bold-link{
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.bold-link:hover{
+  text-decoration: underline;
+}
+
+#install{
+  height: 520px;
+  color: white;
+  background-image: url("images/forklift.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.install-content{
+  position: relative;
+  top: 110px;
+  left: 90px;
+  width: 20%;
+}
+
+#install h3{
+  margin:0;
+  font-size: 2.2em;
+  font-weight: lighter;
+}
+
+.install-btn{
+  background-color: rgb(49, 68, 88);
+  Padding: 9px 15px;
+  width: 120px;
+}
+
+#building-blocks{
+  padding: 30px 0;
+  text-align: center;
+}
+
+#building-blocks h2{
+  color: rgb(83, 88, 98);
+  font-size: 2.2em;
+  font-weight: lighter;
+}
+
+#building-blocks p, .building-blocks-text{
+  color: rgb(135, 145, 156);
+}
+
+#building-blocks a{
+  color: rgb(208, 74, 73);
+}
+
+.building-blocks-content{
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.building-blocks-text{
+  width: 76%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.col-3{
+  width: 33%;
+  float: left;
+}
